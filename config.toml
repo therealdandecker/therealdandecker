@@ -1,4 +1,69 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseurl = "https://therealdandecker.github.io"
+title = "Dan Decker"
 theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 10
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+#disqusShortname = "yourdiscussshortname"
+
+[params]
+  author = "Dan Decker"
+  info = "Data and Business Intelligence Professional"
+  description = "Personal Website of Dan Decer"
+  keywords = "blog,developer,personal"
+  #avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  #favicon_32 = "/img/favicon-32x32.png"
+  #favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2022
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  
+  #customCSS = ["css/custom.css"]
+  #customSCSS = ["scss/custom.scss"]
+  #customJS = ["js/custom.js"]
+
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/therealdandecker/"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-2x fa-linkedin"
+  weight = 1
+  url = "https://www.linkedin.com/in/dan-d-789a1ab/"
+
+
+# Menu links
+#[[menu.main]]
+#  name = "Blog"
+#  weight = 1
+#  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+[[menu.main]]
+  name = "Contact"
+  weight = 2
+  url = "contact/"
+[[menu.main]]
+  name = "Projects"
+  weight = 3
+  url = "projects/"
